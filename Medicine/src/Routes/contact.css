@@ -1,0 +1,36 @@
+.container{
+    padding-top: 150px;
+}
+.container-title{
+    line-height: 42px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#title{
+    width: 60%;
+    height: 40px;
+    padding-left: 10px;
+}
+#message{
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.container-title button{
+    width: 30%;
+    height: 35px;
+    cursor: pointer;
+    background: #008CBA;
+    color: white;
+    border: none;
+}
+.container-title button:hover{
+    background: rgba(226, 157, 8, 0.623);
+    transition: o.3s ease-in-out;
+    color:black
+
+}

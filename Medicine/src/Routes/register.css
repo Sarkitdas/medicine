@@ -1,0 +1,65 @@
+.container{
+    padding-top: 120px;
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+.form{
+    font-size: 80px;
+    color: #203D7E;
+    margin-top: -10px;
+    padding-bottom: 15px;
+}
+.from-control{
+    margin-bottom: 20px;
+    margin-top: 27px;
+
+}
+#Name{
+    height: 45px;
+    width: 80%;
+    border-radius: 4px;
+    text-align: justify;
+    font-size: 15px;
+    padding-left: 20px;
+    border-color:white;
+    border: 0.7px solid black;
+}
+.submit{
+    width: 80%;
+    height: 40px;
+    text-align:center;
+    background-color: #CE0048;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.submit:hover{
+    background-color: #F0C100;
+    transition: 0.2s ease-in-out;
+    color: black;
+
+}
+@media screen and (max-width:1000px){
+    .container{
+        width: 80%;
+        border: none;
+
+
+    }
+    .submit{
+        width:80%;
+        height: 40px;
+    }
+
+    .submit:hover{
+        background-color: #F0C100;
+        transition: 0.2s ease-in-out;
+        color: black;
+    }
+}
